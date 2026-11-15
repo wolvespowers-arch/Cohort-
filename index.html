@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Cohort</title>
+<link rel="icon" href="logo.svg" type="image/svg+xml">
+<meta name="theme-color" content="#14463f">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Cohort">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="chat.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap"><span class="brand"><img src="logo.svg" width="28" height="28" alt="">Cohort</span></div>
+  <div id="offline" hidden>You are offline. You can browse and revise, but messaging and sign-in are unavailable.</div>
+</header>
+<main class="wrap" id="app"></main>
+<nav class="tabs" id="nav" aria-label="Main"></nav>
+<script src="chat.js"></script>
+<script src="app.js"></script>
+<script type="module" src="cloud.js"></script>
+</body>
+</html>
