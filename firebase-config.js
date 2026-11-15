@@ -1,7 +1,8 @@
-// Paste your Firebase web app settings here (Firebase console > Project settings > Your apps).
 export const firebaseConfig = {
-  apiKey: "PASTE_API_KEY",
-  authDomain: "PASTE_PROJECT_ID.firebaseapp.com",
-  projectId: "PASTE_PROJECT_ID",
-  appId: "PASTE_APP_ID"
+  apiKey: "AIzaSyDAcEBUl1WXKT6TTuBQXzlZTTwbTex4DKU",
+  authDomain: "cohort-fbd81.firebaseapp.com",
+  projectId: "cohort-fbd81",
+  storageBucket: "cohort-fbd81.firebasestorage.app",
+  messagingSenderId: "949802153049",
+  appId: "1:949802153049:web:7eeba6f527b0b446826d48"
 };
