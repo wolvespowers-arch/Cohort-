@@ -1,4 +1,4 @@
-const CACHE = "cohort-v1"; // change this number when you publish an update
+const CACHE = "cohort-v2"; // change this number when you publish an update
 const SHELL = ["./", "index.html", "style.css", "chat.css", "app.js", "chat.js", "cloud.js",
   "firebase-config.js", "logo.svg", "manifest.webmanifest", "icon-192.png", "icon-512.png", "apple-touch-icon.png"];
 
